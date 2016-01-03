@@ -49,6 +49,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=bacon PRODUCT_NAME=bacon
 
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Ken-Broken-Greenwood (InkSlinger666)"
+
 ## Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
 PRODUCT_BUILD_PROP_OVERRIDES += \
