@@ -402,5 +402,8 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">100</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    
+    <!-- Show battery fully charged notification -->
+    <bool name="config_showBatteryFullyChargedNotification">true</bool>
 
 </resources>
