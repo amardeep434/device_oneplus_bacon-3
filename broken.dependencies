@@ -3,19 +3,19 @@
     "remote": "github",
     "repository": "BrokenROM/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "m6.0"
+    "branch": "m6.0.1"
   },
   {
     "remote": "github",
     "repository": "BrokenROM/kernel_oneplus",
     "target_path": "kernel/oneplus/msm8974",
-    "branch": "m6.0"
+    "branch": "m6.0.1"
   },
   {
     "remote": "github",
     "repository": "BrokenROM/vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch": "m6.0"
+    "branch": "m6.0.1"
   },
   {
     "remote": "github",
