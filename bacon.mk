@@ -56,14 +56,10 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessingdescriptors \
     tinymix
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-
 # Camera
 PRODUCT_PACKAGES += \
     camera.bacon \
-    Snap
+    SnapdragonCamera
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -80,6 +76,10 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Filesystem management tools
+PRODUCT_PACKAGES += \
+    setup_fs
 
 # Graphics
 PRODUCT_PACKAGES += \
