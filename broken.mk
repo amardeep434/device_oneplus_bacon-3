@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Release name
+PRODUCT_RELEASE_NAME := bacon
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
@@ -31,15 +34,17 @@ $(call inherit-product, vendor/broken/config/common_full_phone.mk)
 PRODUCT_NAME := broken_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_MODEL := A0001
+PRODUCT_MODEL := Oneplus One
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
-PRODUCT_BRAND := oneplus
-TARGET_VENDOR := oneplus
+PRODUCT_BRAND := Oneplus
+TARGET_VENDOR := Oneplus
 TARGET_VENDOR_PRODUCT_NAME := bacon
 TARGET_VENDOR_DEVICE_NAME := A0001
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=A0001 PRODUCT_NAME=bacon
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=bacon PRODUCT_NAME=bacon
+
+TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
 # Broken Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
