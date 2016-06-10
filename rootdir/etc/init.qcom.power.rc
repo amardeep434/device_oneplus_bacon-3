@@ -67,6 +67,10 @@ on enable-low-power
 
     write /dev/cpuctl/cpu.notify_on_migrate 1
 
+    start mpdecision
+
+    setprop sys.io.scheduler deadline
+
 on charger
     write /sys/module/lpm_levels/enable_low_power/l2 2
     write /sys/module/msm_pm/modes/cpu0/power_collapse/suspend_enabled 1
@@ -107,4 +111,4 @@ on property:recovery.perf.mode=0
 on property:dev.bootcomplete=1
     rm /data/system/perfd/default_values
     setprop sys.io.scheduler "bfq"
-    start mpdecision
+    stop mpdecision
