@@ -9,7 +9,7 @@
     "remote": "github",
     "repository": "BrokenROM/kernel_oneplus",
     "target_path": "kernel/oneplus/msm8974",
-    "branch": "m6.0.1"
+    "branch": "bacon-3.10"
   },
   {
     "remote": "github",
@@ -34,5 +34,11 @@
     "repository": "Cyanogenmod/android_vendor_qcom_opensource_dataservices",
     "target_path": "vendor/qcom/opensource/dataservices",
     "branch": "cm-13.0"
-  }  
+  },
+  {
+    "remote": "bb",
+    "repository": "UBERTC/arm-eabi-5.3",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-5.3",
+    "branch": "master"
+  }
 ]
