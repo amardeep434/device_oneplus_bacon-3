@@ -58,8 +58,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.bacon \
-    SnapdragonCamera
+    camera.bacon
 
 # Charger
 PRODUCT_PACKAGES += \
