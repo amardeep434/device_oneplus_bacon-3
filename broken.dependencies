@@ -20,8 +20,8 @@
   },
   {
     "remote":      "github",
-    "repository":  "NoSpamDan/proprietary_vendor_oneplus",
+    "repository":  "BrokenROM/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch":      "ng7.0"
+    "branch":      "n7.0"
   }
 ]
