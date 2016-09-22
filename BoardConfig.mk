@@ -97,7 +97,7 @@ endif
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
-# Flags for modem (we still have an old modem)
+# Ril
 BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_10
 BOARD_GLOBAL_CPPFLAGS += -DUSE_RIL_VERSION_10
 
